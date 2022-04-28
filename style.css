@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: ;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+
+}
+.max-width{
+    background: rgba(0, 100, 0,);
+    text-align: center;
+}
+.max-width ul {
+    display: inline-flex;
+    list-style: none;
+    color: #FFF;
+}
+.max-width ul li {
+
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.active, .max-width ul li a {
+    background: #2bab0d;
+    border-radius: 3px;
+
+}
+
+
+
+
+
+
+.home {
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.submenu{
+    display: none;
+}
+
+.max-width ul li:hover .submenu {
+    display: block;
+    position: absolute;
+   background-color: grey;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+
+.max-width ul li:hover .submenu ul {
+    display: block;
+    margin: 10px;
+
+}
+
+.submenu-1 {
+   display: none;
+}
+
+
+.max-width ul li:hover .submenu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+
+
+.max-width ul li:hover .submenu ul li:last-child {
+    border-bottom: none;
+}
+
+ 
+
+
+.submenu-1 ul li a:hover {
+    display: block;
+    margin: 10px;
+}
+
